@@ -209,7 +209,7 @@
 .form__label--checkbox {
   display: flex;
   align-items: center;
-  gap: 12px; /* espaçamento entre checkbox e texto */
+  gap: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -218,7 +218,7 @@
 }
 
 .form__checkbox {
-  width: 20px;   /* o roteiro mostra 20×20px na imagem */
+  width: 20px;   
   height: 20px;
   border: 1px solid #838383;
   border-radius: 2px;
