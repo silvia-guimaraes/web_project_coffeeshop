@@ -39,7 +39,7 @@
   opacity: 0.7;
 }
 
-.form__label--checkbox {
+.form__checkbox-label {
   display: flex;
   align-items: center;
   gap: 12px;
