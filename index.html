@@ -49,14 +49,16 @@
           src="./images/inside_coffee_shop.png"
           alt="Imagem do interior da cafeteria Ctrl +Alt +Coffee com mesas, cadeiras e pessoas trabalhando"
         />
-        <div class="header__footer">
+      <div class="header__footer">
+        <div class="header__hours">
           <p class="header__paragraph">Horários:</p>
           <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
           <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+        </div>
           <p class="header__paragraph">
             200 Success Avenue, a cidade de Triple Peaks
           </p>
-        </div>
+      </div>
       </header>
       <main class="content">
         <section class="recipes" id="recipes">
@@ -115,6 +117,8 @@
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
+
+              <div class="form__field">
               <label class="form__label" for="nome">Nome *</label>
               <input
                 type="text"
@@ -123,7 +127,9 @@
                 placeholder="Nome"
                 required
               />
+                </div>
 
+              <div class="form__field">
               <label class="form__label" for="number"
                 >Número de convidados *</label
               >
@@ -134,8 +140,10 @@
                 placeholder="1-8"
                 required
               />
+                </div>
 
-              <label class="form__label" for="datetime-local"
+                <div class="form__field">
+                <label class="form__label" for="datetime-local"
                 >Data e hora *</label
               >
               <input
@@ -144,8 +152,10 @@
                 id="datetime-local"
                 required
               />
+                  </div>
 
-              <label class="form__label" for="email">Seu e-mail *</label>
+                 <div class="form__field">
+                  <label class="form__label" for="email">Seu e-mail *</label>
               <input
                 type="email"
                 class="form__input"
@@ -153,6 +163,7 @@
                 placeholder="email@email.com"
                 required
               />
+                  </div>
 
               <button type="submit" class="form__button">
                 Reservar uma mesa

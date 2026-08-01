@@ -4,8 +4,9 @@
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 30px;
+  padding-bottom: 40px;
   min-height: 720px;
-  max-height: 800px;
+  max-height: 800px; /* ainda falta essa linha */
   height: 100vh;
   flex-direction: column;
   background-color: #ffffff;
@@ -16,12 +17,13 @@
 }
 
 .header__title {
-  font-family: "Inter";
+ font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
+  margin-top: 183px;
 }
 
 .header__image {
@@ -45,4 +47,9 @@
 
 .header__footer {
   margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
 }
