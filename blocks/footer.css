@@ -2,13 +2,13 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  padding: 60px 80px;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 60px 80px 0;
   position: relative;
   z-index: 2;
 }
@@ -56,9 +56,8 @@
 }
 
 .footer__copyright {
-  position: relative;
-  z-index: 2;
   color: #ffffff;
+  margin-top: 108px;
 }
 
 .footer__circle {
